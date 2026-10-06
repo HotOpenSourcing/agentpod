@@ -20,8 +20,6 @@ target/
 Cargo.lock
 
 # Environment
-.env
-.env.*
 !.env.example
 
 # IDE
@@ -61,3 +59,4 @@ docs/reference/agentic-space/
 # .gitignore that lives on one branch disappears when you check out another —
 # which is exactly how these files reached main in 20dc588e.
 .astro/
+config.bat

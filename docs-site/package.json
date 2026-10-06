@@ -4,8 +4,8 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "dev": "astro dev --port 4323",
-    "build": "astro build",
+    "dev": "node init && astro dev --port 4323",
+    "build": "node init && astro build",
     "preview": "astro preview",
     "check": "astro check"
   },
